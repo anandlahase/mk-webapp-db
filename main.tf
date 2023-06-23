@@ -72,7 +72,7 @@ module "webapp" {
   rg_name         = module.ResourceGroup.rg_name
 }
 
-/*
+
 module "mssql" {
   source = "./modules/mssql"
   #name                         = "${random_pet.prefix.id}-mk-mssql"
@@ -86,6 +86,4 @@ module "mssql" {
   vcores             = var.vcores
   storage_size_in_gb = var.storage_size_in_gb
 }
-
-*/
 
