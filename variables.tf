@@ -114,6 +114,7 @@ variable "appservice_name_app" {
   default     = ""
 }
 
+# MSSQL DB
 variable "prefix" {
   type        = string
   default     = "mi"
