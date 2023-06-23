@@ -36,11 +36,6 @@ variable "storage_size_in_gb" {
   description = "Enter storage size in GB"
 }
 
-#variable "rg_name" {
-#  description = "Name of the Resource Group"
-# default     = "MK_RG"
-#}
-
 variable "ipConfig_subnetid" {
   description = "The subnet id of the IP configuration used in NIC creation"
   default     = ""
