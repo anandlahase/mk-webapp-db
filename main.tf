@@ -81,7 +81,7 @@ module "mssql" {
   #subnet_id                    = var.subnet
   #administrator_login          = "${replace(random_pet.prefix.id, "-", "")}admin"
   #administrator_login_password = random_password.password.result
-  license_type       = var.license_type
+  #license_type       = var.license_type
   sku_name           = var.sku_name
   vcores             = var.vcores
   storage_size_in_gb = var.storage_size_in_gb
